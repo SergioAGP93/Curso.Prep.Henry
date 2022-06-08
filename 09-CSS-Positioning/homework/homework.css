@@ -7,6 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+    display: block;
+    text-align: center;
 
 }
 
@@ -14,25 +16,86 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
-
+#ejercicioDos{
+    display: none;
+}
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
-
+#ejercicioTres{
+    position: relative;
+    left: 200;
+    top: 100;
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
 
+}
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+
+    flex-direction: row-reverse;
+
+}
+
+#ejercicioSiete{
+
+    background-image: url('https://images.fun.com/products/23408/1-2/mario-adult-mask.jpg');
+    background-size: 500px 500px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+#elementoUno{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    align-self: flex-end;
+}
+#elementoDos{
+    background-color: yellowgreen;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+}
+#elementoTres{
+    background-color: greenyellow;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+}
+#elementoCuatro{
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    bottom: 350px;
+    left: 350px;
+}
